@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+@section Css{
+   <style>
+
+
+   </style>
+}
+@section Scripts
+{
+
+
+}
+<div class="row">
+    <div class="col-md-4">
+        <partial name="~/PartialViews/ProductListPartialView.cshtml" model="@ViewBag.productListPartialViewModel" />
+    </div>
+</div>

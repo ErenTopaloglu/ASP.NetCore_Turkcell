@@ -1,0 +1,13 @@
+﻿@using ASP.NetCore_Turkcell.Controllers;
+@{
+    ViewData["Title"] = "Index2";
+}
+
+@model List<Products>
+@foreach (var item in Model)
+{
+   <p> @item.ID - @item.Name</p>
+}
+
+<h1>Burası Example Layout sayfasıdır.</h1>
+
